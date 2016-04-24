@@ -1,0 +1,11 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+authors = ["Sean Gillespie <sean.william.g@gmail.com>"]
+
+[dependencies]
+rlibc = "1.0.0"
+spin = "0.3"
+
+[lib]
+crate_type = ["staticlib"]

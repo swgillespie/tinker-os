@@ -1,0 +1,2 @@
+file build/kernel-x86_64.bin
+target remote localhost:1234
